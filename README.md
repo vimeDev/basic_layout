@@ -1,4 +1,3 @@
-# hello-world
+# Plantilla front-end sin Frameworks
 Mi primer proyecto(repositorio) en Github
-Engineer in Computer Systems,
-I like to code...
+Contiene una maquetación básica a mano alzada. Únicamente contiene código HTML, CSS y JAVASCRIPT
