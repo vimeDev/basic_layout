@@ -3,38 +3,70 @@
     margin: 0;
     box-sizing: content-box;
 }
-/* .container{
-    max-width: 80%;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: row;
-    align-items: center
-} */
-
-/* Mobile style */
-nav{
-    padding: 1em;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+body{
+    font-family: 'Quicksand', sans-serif;
 }
-nav ul{
+.container{
+    max-width: 80%;
+    margin: auto;
+    /* para que el contenido no se desborde */
+    overflow: hidden;
+}
+/* ESTILOS NAVEGACIÓN */
+.encabezado{
+    background-color: darkgray;
+    box-shadow: 0 0 1em black;
+}
+nav{
+    overflow: hidden;
+    min-height: 70px;
+
+}
+nav ul li{
     list-style: none;
-    background: #000000;
-    margin: 0;
-    padding: 0;
+    display: inline-block;
 }
 nav ul li a{
-    color: rgb(240, 240, 240);
-    display: block;
     text-decoration: none;
-    padding: .5em 1em;
+    color: white;
+    margin-left: 18px;
+    transition: all .9s;
+    font-size: 1.1em;
 }
-nav li a:hover{
-    background: tomato;
+nav ul li a:hover{
+    color: black;
+}
+nav .brand{
+    float: left;
+    margin: 15px 20px;
+}
+nav .brand a{
+    text-decoration: none;
     color: white;
 }
-@media screen and (min-width: 480px){
-    nav ul{
-        display: flex;
-        justify-content: flex-end;
-    }
+nav .links{
+    float: right;
+    margin-top: 20px;
+}
+/* SECTION MAIN-HEADER IMG */
+.main-header{
+    background: url('../img/prague.jpg') no-repeat 0 -400px;
+    min-height: 500px;
+    text-align: center;
+    color: #fff
+
+}
+.main-header h1{
+    font-size: 2em;
+}
+.main-header p{
+    font-size: 1.5em;
+}
+.main-header .text-header{
+    background: rgba(0, 0, 0, 0.5);
+    margin: auto;
+    display: inline-block;
+    margin-top: 150px;
+    padding: 20px;
+    border-radius: 10px;
 }
