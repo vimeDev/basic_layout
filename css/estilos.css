@@ -50,10 +50,11 @@ nav .links{
 }
 /* SECTION MAIN-HEADER IMG */
 .main-header{
-    background: url('../img/prague.jpg') no-repeat 0 -400px;
+    background: url('../img/prague.jpg') no-repeat 0 -350px;
+    height: 100%;
     min-height: 500px;
     text-align: center;
-    color: #fff
+    color: #fff;
 
 }
 .main-header h1{
@@ -69,4 +70,40 @@ nav .links{
     margin-top: 150px;
     padding: 20px;
     border-radius: 10px;
+}
+/* SUSCRIPCION SECTION */
+.suscripcion{
+    background-color: #293037;
+    min-height: 400px;
+    color: white;
+}
+.suscript-title{
+    margin-top: 80px;
+    text-align: center;
+}
+.form-suscript, input:nth-child(1), input:nth-child(2){
+    margin-top: 50px;
+    border: none;
+    border-radius: 3px;
+    padding: 12px;
+    font-size: 1em;
+    background-color: #6a7c8f;
+    border: 2px solid #6a7c8f;
+    color: #fff;
+}
+.form-suscript, input:nth-child(3){
+    border: 2px solid #ffffff;
+    border-radius: 3px;
+    padding: 12px 40px;
+    text-transform: uppercase;
+    font-size: 1em;
+    font-weight: bold;
+    font-family: 'Quicksand', sans-serif;
+    background-color: #293037;
+    color: #fff;
+    transition: all 0.7s;
+}
+.form-suscript, input:nth-child(3):hover{
+    background-color: #fff;
+    color: #6a7c8f;
 }
