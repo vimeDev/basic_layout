@@ -7,6 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Maquetación sin frameworks</title>
     <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+        crossorigin="anonymous">
     <link rel="stylesheet" href="css/estilos.css">
 </head>
 
@@ -46,6 +48,8 @@
             <div class="suscript-title">
                 <div>
                     <h1>Recibe las últimas noticias</h1>
+                    <p class="p-suscripcion">Recibe cada semana un nuevo contenido actualizado y recursos sobre
+                        desarrollo web</p>
                 </div>
                 <div>
                     <form id="form-suscrip" action="">
@@ -53,41 +57,93 @@
                         <input type="email" placeholder="Tu correo electronico">
                         <input type="submit" value="Suscribírme">
                     </form>
+                    <div class="text-form">
+                        <p><small>Confidencialidad. Nunca SPAM. Puedes darte de baja cuando quieras.</small></p>
+                    </div>
+
                 </div>
             </div>
         </div>
     </section>
-
+    <!-- INFORMATION SECTION -->
     <section>
-        <article>
-            <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit, sed.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, excepturi.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, modi.
-            </p>
-        </article>
-        <aside>
-            <div class="card">
-
+        <div class="container">
+            <div class="information">
+                <article class="main-info">
+                    <h1>Lorem, ipsum dolor sit amet consectetur</h1>
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit, sed.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, excepturi.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, modi.
+                    </p>
+                </article>
+                <aside>
+                    <div class="card">
+                        <h1>Lorem, ipsum dolor.</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates laboriosam neque
+                            nostrum
+                            molestiae libero
+                        </p>
+                        <a class="main-btn" href="">Saber más...</a>
+                    </div>
+                </aside>
             </div>
-        </aside>
+        </div>
     </section>
-    <section>
-        <div>
-            <img src="" alt="">
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit, nemo!</p>
-        </div>
-        <div>
-            <img src="" alt="">
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit, nemo!</p>
-        </div>
-        <div>
-            <img src="" alt="">
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit, nemo!</p>
+    <!-- Skills -->
+    <section class="skills">
+        <div class="container cards">
+            <div>
+                <img src="img/c.png" alt="">
+                <h1>Lorem, ipsum dolor.</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit, nemo!</p>
+                <a class="read-more" href="">Leer más...</a>
+            </div>
+            <div>
+                <img src="img/java.png" alt="">
+                <h1>Lorem, ipsum dolor.</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit, nemo!</p>
+                <a href="">Leer más...</a>
+            </div>
+            <div>
+                <img src="img/py.png" alt="">
+                <h1>Lorem, ipsum dolor.</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit, nemo!</p>
+                <a href="">Leer más...</a>
+            </div>
         </div>
     </section>
     <footer>
-
+        <div class="container footer">
+            <div>
+                <p>&copy; Copyright 2018</p>
+            </div>
+            <div>
+                <p>COMPAÑIA</p>
+                <a href="">Acerca de</a>
+                <a href="">Desarrolladores</a>
+                <a href=""></a>
+            </div>
+            <div>
+                <p>SOPORTE</p>
+                <ul>
+                    <a href="">Acerca de</a>
+                    <a href="">Desarrolladores</a>
+                    <a href=""></a>
+                </ul>
+            </div>
+            <div>
+                <p>CONTACTO</p>
+                <p><i class="far fa-envelope"></i> example@server.com</p>
+                <p><i class="fas fa-mobile-alt"></i> 9983-1024-55</p>
+            </div>
+            <div class="social-media">
+                <h1>Siguenos en...</h1>
+                <a href=""><i class="fab fa-instagram"></i></a>
+                <a href=""><i class="fab fa-facebook-f"></i></a>
+                <a href=""> <i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
     </footer>
 
     <script src="js/funciones.js"></script>

@@ -81,6 +81,19 @@ nav .links{
     margin-top: 80px;
     text-align: center;
 }
+.suscript-title h1{
+    text-transform: uppercase;
+}
+.suscript-title  small{
+    color: #6a7c8f;
+}
+.p-suscripcion{
+    margin-top: 30px;
+    font-size: 1.2em;
+}
+.text-form{
+    margin-top: 10px;
+}
 .form-suscript, input:nth-child(1), input:nth-child(2){
     margin-top: 50px;
     border: none;
@@ -106,4 +119,131 @@ nav .links{
 .form-suscript, input:nth-child(3):hover{
     background-color: #fff;
     color: #6a7c8f;
+}
+/* INFORMATION SECTION */
+.information{
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+.main-info{
+    width: 60%;
+    float: left;
+    text-align: center;
+    margin-top: 60px;
+}
+.main-info h1{
+    margin-bottom: 20px;
+}
+aside{
+    float: right;
+    width: 30%;
+    margin: 5px;
+    
+}
+aside .card{
+    box-shadow: 0 2px 3px rgba(0,0,0,.12), 0 1px 3px rgba(0,0,0,.45);
+    border-radius: 5px;
+    padding: 40px 20px;
+    text-align: center;
+    /* height: 300px; */
+}
+aside .card p{
+    margin-bottom: 40px;
+    margin-top: 10px;
+}
+.main-btn{
+    border: 2px solid #293037;
+    border-radius: 25px;
+    padding: 12px 40px;
+    font-size: 1em;
+    font-weight: bold;
+    font-family: 'Quicksand', sans-serif;
+    background-color: #293037;
+    color: #fff;
+    transition: all 0.7s;
+    text-decoration: none;
+}
+/* SKILLS */
+
+.skills img{
+    border-radius: 100%;
+    width: 89px;
+    margin-top: 50px;
+}
+.cards{
+    display: flex;
+    text-align: center;
+    margin-top: 50px;
+    /* border-top: 1px solid #c0c0c0; */
+    box-shadow: 0 -3px 5px -5px #333;
+    
+}
+.cards div{
+    padding: 20px;
+}
+.cards p{
+    margin-bottom: 30px;
+}
+.cards h1{
+    margin-bottom: 10px;
+}
+.cards a{
+    border: 1px solid #293037;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: all 0.7s;
+    color: #293037;
+    text-decoration: none;
+}
+.cards a:hover{
+    background-color: #333;
+    color: #fff
+}
+
+/* FOOTER */
+footer{
+    background-color: #293037;
+    color: #ffffff;
+    padding: 10px;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+}
+.social-media .fa-facebook-f{
+    background-color: #ffffff;
+    color: #293037;
+    border-radius: 100%;
+    width: 20px;
+    height: 25px;
+    padding: 10px;
+    padding-left: 15px;
+    font-size: 25px;
+}
+.social-media .fa-instagram, .social-media .fa-twitter{
+    background-color: #ffffff;
+    color: #293037;
+    padding: 10px;
+    border-radius: 100%;
+    font-size: 26px;
+}
+.social-media .fa-instagram:hover, .social-media .fa-twitter:hover, .social-media .fa-facebook-f:hover{
+    color: white;
+    background-color: #c0c0c0;
+}
+.social-media h1{
+    font-size: 1em;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.social-media a{
+    display: inline-block;
+}
+footer a{
+    color: #ffffff;
+    display: block;
+}
+footer div{
+    padding: 10px;
 }
