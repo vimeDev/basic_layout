@@ -247,3 +247,53 @@ footer a{
 footer div{
     padding: 10px;
 }
+/* MEDIA QUERIES */
+@media screen and (max-width: 576px){
+    nav{
+          text-align: center;
+    }
+    nav .brand, nav .links{
+        float: none;
+    }
+    nav .links{
+        margin-bottom: 10px;
+    }
+    .main-header{
+        min-height: 300px;
+    }
+    .main-header .text-header{
+        margin-top: 50px;
+    }
+    /* suscripcion */
+    .form-suscript, input:nth-child(1), input:nth-child(2), input:nth-child(3){
+        width: 100%;
+        background-color: #ffffff;
+        color: black;
+    }
+    .form-suscript, input:nth-child(2){
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .form-suscript, input:nth-child(3){
+        padding-left: 0px;
+    }
+    .main-info, aside{
+        float: none;
+        min-width: 100%;
+    }
+    .information{
+        display: flex;
+        flex-direction: column;
+        margin-top: 0px;
+    }
+    .cards{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        float: none;
+    }
+}
